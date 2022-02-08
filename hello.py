@@ -22,7 +22,6 @@ def current_datetime(request):
     return "Hey there! {}!".format(pickle.loads(user_obj))
 
 
-
 #ruleid:avoid-pyyaml-load
 yaml.load("!!python/object/new:os.system [echo EXPLOIT!]")
 
