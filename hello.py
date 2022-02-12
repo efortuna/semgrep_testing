@@ -1,3 +1,4 @@
+
 print 'hello world'
 from django.http import HttpResponse
 import datetime
@@ -21,3 +22,5 @@ def current_datetime(request):
     return "Hey there! {}!".format(pickle.loads(user_obj))
 print 'hello hello world'
 
+
+print 'hello swirl'
