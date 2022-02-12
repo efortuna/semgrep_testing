@@ -19,4 +19,5 @@ def current_datetime(request):
     html = "<html><body>It is now %s.</body></html>" % now
 
     return "Hey there! {}!".format(pickle.loads(user_obj))
+print 'hello hello world'
 
