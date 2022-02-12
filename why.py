@@ -82,3 +82,4 @@ def current_datetime(request):
     return "Hey there! {}!".format(yaml.loads(b64decode(user_obj)))
 
 print 'this is a test'
+print 'and some more'
