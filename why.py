@@ -83,3 +83,4 @@ def current_datetime(request):
 
 print 'this is a test'
 print 'and some more'
+print 'aaaaand moooooore hello'
